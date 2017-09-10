@@ -1,0 +1,305 @@
+body{
+    align-self: auto;
+    text-align: center;
+    margin: auto;
+    max-width: 1300px;
+    background: #0D1D26;
+}
+.navbar{
+    background-color: #0C1C26;
+}
+.window{
+    margin-top: 55px;
+}
+.row{
+    background-color: #0C1C26;
+}
+.col-md-8, 
+.col-md-6,
+.col-md-4{
+    height: 200px;
+    border-style: solid;
+    border-color: #0D1D26;
+    border-width: 3px;
+    border-radius: 10px;
+}
+img{
+    height: 100%;
+}
+h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: lightslategray;
+    text-align: left;
+    margin: 0;
+    text-align: center;
+}
+.tech{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: bold;
+    margin-bottom: 0;
+    color: #FF2222;
+}
+.skill{
+    background-color: white;
+    padding-top: 10px;
+}
+.col-md-1{
+    height: 90px;
+    background-color: white;
+}
+.skills{
+    background-color: white;
+}
+.skill-html{
+    background: url("../img/symbols/html.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-css{
+    background: url("../img/symbols/css.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-bootstrap{
+    background: url("../img/symbols/bootstrap.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-js{
+    background: url("../img/symbols/js.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-sass{
+    background: url("../img/symbols/sass.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-jquery{
+    background: url("../img/symbols/jquery.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-ajax{
+    background: url("../img/symbols/ajax.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-figma{
+    background: url("../img/symbols/figma.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-heroku{
+    background: url("../img/symbols/heroku.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-glitch{
+    background: url("../img/symbols/glitch.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-git{
+    background: url("../img/symbols/git.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-github{
+    background: url("../img/symbols/github.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-npm{
+    background: url("../img/symbols/npm.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-markdown{
+    background: url("../img/symbols/markdown.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-node{
+    background: url("../img/symbols/node.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-express{
+    background: url("../img/symbols/express.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-jade{
+    background: url("../img/symbols/jade.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-mongodb{
+    background: url("../img/symbols/mongodb.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-react{
+    background: url("../img/symbols/react.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-redux{
+    background: url("../img/symbols/redux.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.skill-d3{
+    background: url("../img/symbols/d3.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.portfolio{
+    background: url("../img/portfolio.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+h2{
+    text-align: right;
+    margin:10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.quote{
+    background: url("../img/quote.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+.quotes{
+    position: absolute;
+    text-align: center;
+}
+.social{
+    background: url("../img/social.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+.contact{
+    background: url("../img/contact.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1{
+        color: white;
+        
+    }
+    p{
+        font-size: 20px;
+        color: lightslategray;
+        margin: 0;
+    }
+    .a{
+        font-size: 50px;
+        margin-left: 0%;
+        text-align: left;
+    }
+    .b{
+        margin-left: 10%;
+        text-align: left;
+    }
+    .c{
+        margin-left: 20%;
+        text-align: left;
+    }
+    .d{
+        margin-left: 30%;
+        text-align: left;
+    }
+    .e{
+        font-size: 30px;
+        margin-right: 0%;
+        text-align: right;
+    }
+    .f{
+        margin-right: 0%;
+        text-align: right;
+        font-size: 18px;
+    }
+    .g{
+        margin-right: 10%;
+        text-align: right;
+        font-size: 18px;
+    }
+    .h{
+        margin-right: 20%;
+        text-align: right;
+        font-size: 18px;
+    }
+    .i{
+        text-align: left;
+        margin-left: 5%;
+    }
+    .j{
+        text-align: left;
+        margin-left: 15%;
+    }
+    .k{
+        text-align: left;
+        margin-left: 30%;
+    }
+    .l{
+        text-align: left;
+        margin-left: 45%;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+ }
