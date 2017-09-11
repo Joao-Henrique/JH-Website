@@ -38,6 +38,9 @@ p{
     margin: 0;
     text-align: center;
 }
+.foto{
+    text-align: right;
+}
 .tech{
     text-align: center;
     font-size: 40px;
@@ -209,12 +212,6 @@ h2{
     text-align: center;
 }
 .social{
-    background: url("../img/social.png"); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
 }
 .contact{
     background: url("../img/contact.jpg");

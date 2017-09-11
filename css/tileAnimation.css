@@ -1,0 +1,82 @@
+.quote{
+    transform-style: preserve-3d;
+    -webkit-animation:rotate 3s ease-out 1;
+}
+@-webkit-keyframes rotate{
+    0%{transform: rotateY(0);}
+    50%{transform: rotateY(180deg);}
+}
+
+
+
+
+.foto{
+    position: relative;
+    animation-name: foto;
+    animation-duration: 4s;
+}
+@keyframes foto {
+    0%   { left:-100%;}
+    50%  { left:0%;}
+    100% { left:0;}
+}
+.skill{
+    position: relative;
+    animation-name: skill;
+    animation-duration: 4s;
+}
+@keyframes skill {
+    0%   { left:-100%;}
+    50%  { left:40%;}
+    100% { left:0;}
+}
+.portfolio{
+    position: relative;
+    animation-name: portfolio;
+    animation-duration: 4s;
+}
+@keyframes portfolio {
+    0%   { left:100%;}
+    50%  { left:40%;}
+    100% { left:0px;}
+}
+.contact{
+    position: relative;
+    animation-name: contact;
+    animation-duration: 4s;
+}
+@keyframes contact {
+    0%   { left:100%;}
+    50%  { left:40%;}
+    100% { left:0px;}
+}
+.presentation{
+    position: relative;
+    animation-name: presentation;
+    animation-duration: 2s;
+}
+@keyframes presentation {
+    0%   { left:100%;}
+    50%  { left:0%;}
+    100% { left:0px;}
+}
+.passions{
+    position: relative;
+    animation-name: passions;
+    animation-duration: 4s;
+}
+@keyframes passions {
+    0%   { left:-100%;}
+    50%  { left:0%;}
+    100% { left:0px;}
+}
+.drivesme{
+    position: relative;
+    animation-name: drivesme;
+    animation-duration: 4s;
+}
+@keyframes drivesme {
+    0%   { left:-100%;}
+    50%  { left:40%;}
+    100% { left:0px;}
+}
