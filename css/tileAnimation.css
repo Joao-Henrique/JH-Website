@@ -1,82 +1,125 @@
+/*FOTO AND PRESENTATION 1ST ACT*/
+.foto{
+    position: relative;
+    animation-name: foto;
+    animation-duration:8s;
+}
+@keyframes foto {
+    0%   { left:-100%;top:200px}
+    25%  { left:17%;top:200px}
+    99%  { left:17%;top:200px}
+    100% { left:0;top:0}
+}
+.presentation{
+    position: relative;
+    animation-name: presentation;
+    animation-duration: 8s;
+}
+@keyframes presentation {
+    0%   { left:100%;top:200px}
+    25%  { left:16%;top:200px}
+    99%  { left:16%;top:200px}
+    100% { left:0px;top:0}
+}
+
+/*QUOTE MACHINE ROTATION*/
 .quote{
-    transform-style: preserve-3d;
-    -webkit-animation:rotate 3s ease-out 1;
+    -webkit-animation:rotate 2s ease-out 1;
+    animation-delay: 6s;
 }
 @-webkit-keyframes rotate{
     0%{transform: rotateY(0);}
     50%{transform: rotateY(180deg);}
+    50%{transform: rotateY(360deg);}
 }
 
-
-
-
-.foto{
-    position: relative;
-    animation-name: foto;
-    animation-duration: 4s;
-}
-@keyframes foto {
-    0%   { left:-100%;}
-    50%  { left:0%;}
-    100% { left:0;}
-}
+/*TILE ANIMATION*/
 .skill{
     position: relative;
     animation-name: skill;
-    animation-duration: 4s;
+    animation-duration: 8s;
 }
 @keyframes skill {
     0%   { left:-100%;}
-    50%  { left:40%;}
+    75%  { left:-100%;}
+    95%  { left:40%;}
     100% { left:0;}
 }
 .portfolio{
     position: relative;
     animation-name: portfolio;
-    animation-duration: 4s;
+    animation-duration: 8s;
 }
 @keyframes portfolio {
     0%   { left:100%;}
-    50%  { left:40%;}
-    100% { left:0px;}
+    75%  { left:100%;}
+    95%  { left:40%;}
+    100% { left:0;}
 }
+
 .contact{
     position: relative;
     animation-name: contact;
-    animation-duration: 4s;
+    animation-duration: 8s;
 }
 @keyframes contact {
     0%   { left:100%;}
-    50%  { left:40%;}
-    100% { left:0px;}
-}
-.presentation{
-    position: relative;
-    animation-name: presentation;
-    animation-duration: 2s;
-}
-@keyframes presentation {
-    0%   { left:100%;}
-    50%  { left:0%;}
-    100% { left:0px;}
+    75%  { left:100%;}
+    95%  { left:40%;}
+    100% { left:0;}
 }
 .passions{
     position: relative;
     animation-name: passions;
-    animation-duration: 4s;
+    animation-duration: 8s;
 }
 @keyframes passions {
     0%   { left:-100%;}
-    50%  { left:0%;}
-    100% { left:0px;}
+    75%  { left:-100%;}
+    95%  { left:40%;}
+    100% { left:0;}
 }
 .drivesme{
     position: relative;
     animation-name: drivesme;
-    animation-duration: 4s;
+    animation-duration: 8s;
 }
 @keyframes drivesme {
     0%   { left:-100%;}
-    50%  { left:40%;}
-    100% { left:0px;}
+    75%  { left:-100%;}
+    95%  { left:40%;}
+    100% { left:0;}
+}
+
+/*TITLE FALLING DOWN*/
+h1 {
+    animation: falling 2.5s ease-out;
+    animation-delay: 8s;
+	transform-origin: bottom center;
+}
+
+@keyframes falling {
+	12% {
+		transform: rotateX(240deg);
+	}
+	
+	24% {
+		transform: rotateX(150deg);
+	}
+	
+	36% {
+		transform: rotateX(200deg);
+	}
+	
+	48% {
+		transform: rotateX(175deg);
+	}
+	
+	60%, 85% {
+		transform: rotateX(180deg);
+	}
+	
+	100% {
+		transform: rotateX(0deg);
+	}
 }

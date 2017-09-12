@@ -46,6 +46,6 @@ function cycleQuotes(arr, i, sel){
 	
 }
 
-$(window).load(function(){
-	cycleQuotes(quotes, index, ".quotes");
+$(".quotes").load(function(){
+	cycleQuotes(quotes, index, "#quotes");
 });
