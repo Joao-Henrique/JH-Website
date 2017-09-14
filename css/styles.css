@@ -16,7 +16,8 @@ body{
 }
 .col-md-8, 
 .col-md-6,
-.col-md-4{
+.col-md-4,
+.portfolio{
     height: 200px;
     border-style: solid;
     border-color: #0D1D26;
@@ -48,150 +49,53 @@ p{
     margin-bottom: 0;
     color: #FF2222;
 }
-.skill{
-    background-color: white;
-    padding-top: 10px;
-}
-.col-md-1{
-    height: 90px;
-    background-color: white;
-}
-.skills{
-    background-color: white;
-}
-.skill-html{
-    background: url("../img/symbols/html.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-css{
-    background: url("../img/symbols/css.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-bootstrap{
-    background: url("../img/symbols/bootstrap.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-js{
-    background: url("../img/symbols/js.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-sass{
-    background: url("../img/symbols/sass.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-jquery{
-    background: url("../img/symbols/jquery.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-ajax{
-    background: url("../img/symbols/ajax.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-figma{
-    background: url("../img/symbols/figma.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-heroku{
-    background: url("../img/symbols/heroku.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-glitch{
-    background: url("../img/symbols/glitch.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-git{
-    background: url("../img/symbols/git.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-github{
-    background: url("../img/symbols/github.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-npm{
-    background: url("../img/symbols/npm.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-markdown{
-    background: url("../img/symbols/markdown.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-node{
-    background: url("../img/symbols/node.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-express{
-    background: url("../img/symbols/express.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-jade{
-    background: url("../img/symbols/jade.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-mongodb{
-    background: url("../img/symbols/mongodb.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-react{
-    background: url("../img/symbols/react.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-redux{
-    background: url("../img/symbols/redux.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
-.skill-d3{
-    background: url("../img/symbols/d3.png");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center, center;
-}
 .portfolio{
-    background: url("../img/portfolio.jpg"); 
+    background: linear-gradient(rgba(1, 2, 104, 0.7),rgba(83, 152, 255, 0.2)
+      ), url("../img/portfolio.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    transform: translate(0%, 0%);
+    overflow: hidden;
+}
+.portfolio:before{
+    position: absolute;
+    top:0;
+    left:-20px;
+    right:0;
+    bottom:0px;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    width:470px;
+    height: 470px;
+    transition:  0.6s ease-out;
+    z-index: -1;
+}
+.portfolio:hover{
+    transition:  0.2s;
+}
+.portfolio:hover::before{
+    box-shadow: inset 0 0 0 300px #0077E6;
+}
+.portfolioBtn{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
     color: white;
+    transition:  1.5s;
+}
+.portfolioBtn:hover{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    font-size: 95px;
+    color: white;
+    transform: rotate(360deg);
+    transition:  0.3s;
 }
 h2{
     text-align: right;
@@ -230,73 +134,12 @@ h2{
 }
 
 
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    h1{
-        color: white;
-        
-    }
-    p{
-        font-size: 20px;
-        color: lightslategray;
-        margin: 0;
-    }
-    .a{
-        font-size: 50px;
-        margin-left: 0%;
-        text-align: left;
-    }
-    .b{
-        margin-left: 10%;
-        text-align: left;
-    }
-    .c{
-        margin-left: 20%;
-        text-align: left;
-    }
-    .d{
-        margin-left: 30%;
-        text-align: left;
-    }
-    .e{
-        font-size: 30px;
-        margin-right: 0%;
-        text-align: right;
-    }
-    .f{
-        margin-right: 0%;
-        text-align: right;
-        font-size: 18px;
-    }
-    .g{
-        margin-right: 10%;
-        text-align: right;
-        font-size: 18px;
-    }
-    .h{
-        margin-right: 20%;
-        text-align: right;
-        font-size: 18px;
-    }
-    .i{
-        text-align: left;
-        margin-left: 5%;
-    }
-    .j{
-        text-align: left;
-        margin-left: 15%;
-    }
-    .k{
-        text-align: left;
-        margin-left: 30%;
-    }
-    .l{
-        text-align: left;
-        margin-left: 45%;
-    }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {

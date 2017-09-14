@@ -2,8 +2,9 @@ const quotes = ["“Some interesting quote 1.”","- Some Author 1", "“Some in
 
 $(document).ready(function(){
 	
-	//DISPLAY QUOTE
+	//DISPLAY QUOTE WITH FADE EFFECT
 	var autoQuoter = function() {
+		//USING VANILA JS - UNABLE TO USE FADE EFFECT
 		//document.getElementById("quote").innerHTML = quotes[i]
 		//document.getElementById("author").innerHTML = quotes[i+1]
 		$("#quote").html(quotes[i]).fadeIn(3000).delay(8000).fadeOut(3000);
@@ -16,16 +17,19 @@ $(document).ready(function(){
 		i = -2;
 	}
 	
-	//DISPLAY QUOTES ON HTML
+	//LOOP THROUGHT QUOTES
 	var displayQuotes = function(){
+
 		if  ( i == quotes.length ){
 			quoteReset()
 		}
-		console.log(quotes.length, i)
+//		console.log("Total=" + quotes.length, "Current=" + (i/2+1)) //TEST
+
 		autoQuoter()
 		i=i+2
 		
 	}
 
+	//CHANGE QUOTE EVERY 14 SECONDS
 	window.setInterval(displayQuotes, 14000);
 });

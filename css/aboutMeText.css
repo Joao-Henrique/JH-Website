@@ -1,0 +1,62 @@
+h1{
+    color: white;
+    
+}
+p{
+    font-size: 20px;
+    color: lightslategray;
+    margin: 0;
+}
+.a{
+    font-size: 50px;
+    margin-left: 0%;
+    text-align: left;
+}
+.b{
+    margin-left: 10%;
+    text-align: left;
+}
+.c{
+    margin-left: 20%;
+    text-align: left;
+}
+.d{
+    margin-left: 30%;
+    text-align: left;
+}
+.e{
+    font-size: 30px;
+    margin-right: 0%;
+    text-align: right;
+}
+.f{
+    margin-right: 0%;
+    text-align: right;
+    font-size: 18px;
+}
+.g{
+    margin-right: 10%;
+    text-align: right;
+    font-size: 18px;
+}
+.h{
+    margin-right: 20%;
+    text-align: right;
+    font-size: 18px;
+}
+.i{
+    text-align: left;
+    margin-left: 5%;
+}
+.j{
+    text-align: left;
+    margin-left: 15%;
+}
+.k{
+    text-align: left;
+    margin-left: 30%;
+}
+.l{
+    text-align: left;
+    margin-left: 45%;
+}
