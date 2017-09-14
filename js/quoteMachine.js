@@ -1,51 +1,31 @@
-var quotes = [
-	"“Wisdom is not a product of schooling but of the lifelong attempt to acquire it.”  <br><br>— Albert Einstein",
-	"“Live as if you were to die tomorrow. Learn as if you were to live forever.” <br><br>—  Mahatma Gandhi",
-	"“Tell me and I forget, teach me and I may remember, involve me and I learn.” <br><br>— Benjamin Franklin",
-	"“Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.”<br><br>— Richard Feynman",
+const quotes = ["“Some interesting quote 1.”","- Some Author 1", "“Some interesting quote 2.”", "- Some Author 2", "“Some interesting quote 3.”", "- Some Author 3", "“Some interesting quote 4.”","- Some Author 4", "“Some interesting quote 5.”","- Some Author 5", "“Some interesting quote 6.”","- Some Author 6",]
+
+$(document).ready(function(){
 	
-	"“It is important that students bring a certain ragamuffin, barefoot irreverence to their studies; they are not here to worship what is known, but to question it.”  <br><br>—  Jacob Bronowski"
-];
-
-var index = 0;
-var max = quotes.length - 1;
-var delay = .02;
-
-function random(min, max){
-	return (Math.random() * (max - min)) + min;
-}
-
-function cycleQuotes(arr, i, sel){
-	var el = $(sel);
-	var message = arr[i];
-	el.html(message);
-	var split = new SplitText(el);
-	var time = split.chars.length * delay;
+	//DISPLAY QUOTE
+	var autoQuoter = function() {
+		//document.getElementById("quote").innerHTML = quotes[i]
+		//document.getElementById("author").innerHTML = quotes[i+1]
+		$("#quote").html(quotes[i]).fadeIn(3000).delay(8000).fadeOut(3000);
+		$("#author").html(quotes[i+1]).fadeIn(3000).delay(8000).fadeOut(3000);
+	};
 	
-	$(split.chars).each(function(i){
-		TweenMax.from($(this), time, {
-			opacity: 0,
-			x: 0,
-			y: random(-200, 200),
-			z: random(500, 1000),
-			// scale: .1,
-			delay: i * delay,
-			yoyo: true,
-			repeat: -1,
-			repeatDelay: time * 4,
-			ease: Power1.easeOut
-		});
-	});
+	//VARIABLE HANDLER
+	var i = -2;
+	var quoteReset = function(){
+		i = -2;
+	}
 	
-	index = index == max ?  0 : (index + 1);
-
-	setTimeout(function(){
+	//DISPLAY QUOTES ON HTML
+	var displayQuotes = function(){
+		if  ( i == quotes.length ){
+			quoteReset()
+		}
+		console.log(quotes.length, i)
+		autoQuoter()
+		i=i+2
 		
-		cycleQuotes(quotes, index, ".quotes");
-	}, ((time * 4) + (time * 4)) * 1000);
-	
-}
+	}
 
-$(".quotes").load(function(){
-	cycleQuotes(quotes, index, "#quotes");
+	window.setInterval(displayQuotes, 14000);
 });
