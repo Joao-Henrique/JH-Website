@@ -40,7 +40,18 @@ p{
     text-align: center;
 }
 .foto{
-    text-align: right;
+    background: url("../img/fotoPortCartoon.png");
+    background-size: 55%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    transition:  0.1s
+}
+.foto:hover{
+    background: url("../img/fotoPortCartoonInvert.png");
+    background-size: 55%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    transition:  0.1s
 }
 .tech{
     text-align: center;
