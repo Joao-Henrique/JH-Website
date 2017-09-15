@@ -1,0 +1,54 @@
+.contact{
+    background: linear-gradient(rgba(165, 121, 0, 0.7),rgba(0, 78, 7, 0.2)
+    ), url("../img/contact.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #0D1D26;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+.contactBtn{
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    color: #0D1D26;
+    transition:  0.4s;
+}
+.contactBtn:hover{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 150px;
+    margin-top: -80px;
+    transition:  0.3s;
+}
+
+/* WRENCHING */
+@keyframes wrench {
+    0%{transform:rotate(0deg)}
+	20%{transform:rotate(-90deg)}
+	23%{transform:rotate(80deg)}
+	27%{transform:rotate(-70deg)}
+	32%{transform:rotate(60deg)}
+	38%{transform:rotate(-50deg)}
+	45%{transform:rotate(40deg)}
+	53%{transform:rotate(-30deg)}
+	62%{transform:rotate(15deg)}
+	72%,100%{transform:rotate(0deg)}
+}
+.faa-wrench {
+	animation: wrench 2.5s ease infinite;
+	transform-origin-x: 90%;
+	transform-origin-y: 35%;
+	transform-origin-z: initial;
+}
+/* SHAKE */
+.faa-shake.animated{
+    animation: wrench 5s ease infinite;
+}
