@@ -1,0 +1,39 @@
+.loaderDiv{
+    position: absolute;
+    height: 100vh;
+    padding-top: 10%;
+}
+.loaderFix {
+    height: 50px;
+    float: left;
+    margin-right: 0.3em;
+    font: normal 40px/50px Arial, sans-serif;
+}
+b {
+    text-align: left;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    font: normal 40px/50px Arial, sans-serif;
+}
+span1 {
+    display: inline-block;
+    color: #e74c3c;
+    font: normal 40px/50px Arial, sans-serif;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    -webkit-animation: move 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+}
+
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}

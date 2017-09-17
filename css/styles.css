@@ -1,4 +1,5 @@
 body{
+    visibility: hidden;
     align-self: auto;
     text-align: center;
     margin: auto;

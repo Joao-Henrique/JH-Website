@@ -1,5 +1,6 @@
 /*FOTO AND PRESENTATION 1ST ACT*/
 .foto{
+    animation-delay: 10s;
     position: relative;
     animation-name: foto;
     animation-duration:8s;
@@ -12,6 +13,7 @@
     100% { left:0;top:0}
 }
 .presentation{
+    animation-delay: 10s;
     position: relative;
     animation-name: presentation;
     animation-duration: 8s;
@@ -25,6 +27,7 @@
 
 /*TILE ANIMATION*/
 .skill{
+    animation-delay: 10s;
     position: relative;
     animation-name: skill;
     animation-duration: 8s;
@@ -36,6 +39,7 @@
     100% { left:0;}
 }
 .portfolio{
+    animation-delay: 10s;
     position: relative;
     animation-name: portfolio;
     animation-duration: 8s;
@@ -47,6 +51,7 @@
     100% { left:0;}
 }
 .contact{
+    animation-delay: 10s;
     position: relative;
     animation-name: contact;
     animation-duration: 8s;
@@ -58,6 +63,7 @@
     100% { left:0;}
 }
 .passions{
+    animation-delay: 10s;
     position: relative;
     animation-name: passions;
     animation-duration: 8s;
@@ -69,6 +75,7 @@
     100% { left:0;}
 }
 .drivesme{
+    animation-delay: 10s;
     position: relative;
     animation-name: drivesme;
     animation-duration: 8s;
@@ -83,7 +90,7 @@
 /*TITLE FALLING DOWN*/
 h1 {
     animation: falling 2.5s ease-out;
-    animation-delay: 8s;
+    animation-delay: 18s;
 	transform-origin: bottom center;
 }
 
