@@ -5,6 +5,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding: 0;
     transform: translate(0%, 0%);
     overflow: hidden;
 }
@@ -30,9 +31,10 @@
 }
 .portfolioBtn{
     background-color: transparent;
+    padding: 0;
     height: 100%;
     width: 100%;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     transition:  1.5s;
@@ -41,7 +43,7 @@
     background-color: transparent;
     height: 100%;
     width: 100%;
-    font-size: 95px;
+    font-size: 80px;
     color: white;
     transform: rotate(360deg);
     transition:  0.3s;

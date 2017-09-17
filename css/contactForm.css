@@ -1,2 +1,8 @@
-#contactMe{
+.panel{
+    background-color: #0D1D26;
+    color: white;
+}
+.panel-footer {
+    background-color: #0D1D26;
+    color: white;
 }

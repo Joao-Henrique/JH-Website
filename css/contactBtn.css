@@ -9,6 +9,7 @@
     font-size: 20px;
     font-weight: bold;
     padding: 0;
+    overflow: hidden;
 }
 .contactBtn{
     background-color: transparent;
@@ -32,7 +33,7 @@
 /* WRENCHING */
 @keyframes wrench {
     0%{transform:rotate(0deg)}
-	20%{transform:rotate(-90deg)}
+	20%{transform:rotate(-88deg)}
 	23%{transform:rotate(80deg)}
 	27%{transform:rotate(-70deg)}
 	32%{transform:rotate(60deg)}

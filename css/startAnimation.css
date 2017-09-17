@@ -5,9 +5,10 @@
     animation-duration:8s;
 }
 @keyframes foto {
-    0%   { left:-100%;top:200px}
-    25%  { left:17%;top:200px}
-    99%  { left:17%;top:200px}
+    0%   { left:19%;top:360px}
+    25%  { left:19%;top:360px}
+    35%  { left:19%;top:280px}
+    96%  { left:19%;top:280px}
     100% { left:0;top:0}
 }
 .presentation{
@@ -16,21 +17,10 @@
     animation-duration: 8s;
 }
 @keyframes presentation {
-    0%   { left:100%;top:200px}
-    25%  { left:16%;top:200px}
-    99%  { left:16%;top:200px}
+    0%   { left:100%;top:175px}
+    25%  { left:14%;top:175px}
+    96%  { left:14%;top:175px}
     100% { left:0px;top:0}
-}
-
-/*QUOTE MACHINE ROTATION*/
-.quote{
-    -webkit-animation:rotate 2s ease-out 1;
-    animation-delay: 6s;
-}
-@-webkit-keyframes rotate{
-    0%{transform: rotateY(0);}
-    50%{transform: rotateY(180deg);}
-    50%{transform: rotateY(360deg);}
 }
 
 /*TILE ANIMATION*/
@@ -40,9 +30,9 @@
     animation-duration: 8s;
 }
 @keyframes skill {
-    0%   { left:-100%;}
-    75%  { left:-100%;}
-    95%  { left:40%;}
+    0%   { left:-150%;}
+    75%  { left:-150%;}
+    95%  { left:30%;}
     100% { left:0;}
 }
 .portfolio{
@@ -53,7 +43,7 @@
 @keyframes portfolio {
     0%   { left:100%;}
     75%  { left:100%;}
-    95%  { left:40%;}
+    95%  { left:30%;}
     100% { left:0;}
 }
 .contact{
@@ -64,7 +54,7 @@
 @keyframes contact {
     0%   { left:100%;}
     75%  { left:100%;}
-    95%  { left:40%;}
+    95%  { left:30%;}
     100% { left:0;}
 }
 .passions{
@@ -73,9 +63,9 @@
     animation-duration: 8s;
 }
 @keyframes passions {
-    0%   { left:-100%;}
-    75%  { left:-100%;}
-    95%  { left:40%;}
+    0%   { left:-700%;}
+    75%  { left:-700%;}
+    95%  { left:30%;}
     100% { left:0;}
 }
 .drivesme{
@@ -84,9 +74,9 @@
     animation-duration: 8s;
 }
 @keyframes drivesme {
-    0%   { left:-100%;}
-    75%  { left:-100%;}
-    95%  { left:40%;}
+    0%   { left:-700%;}
+    75%  { left:-700%;}
+    95%  { left:30%;}
     100% { left:0;}
 }
 

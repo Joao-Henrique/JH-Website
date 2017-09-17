@@ -1,0 +1,13 @@
+.quote{
+    background: url("../img/quote.png"); 
+    color: white;
+}
+.quotes{
+    text-align: center;
+    margin-top: 40px;
+}
+.author{
+    text-align: right;
+    margin-top:20px;
+    margin-right: 30px;
+}

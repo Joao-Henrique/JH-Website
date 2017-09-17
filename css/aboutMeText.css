@@ -13,15 +13,15 @@ p{
     text-align: left;
 }
 .b{
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: left;
 }
 .c{
-    margin-left: 20%;
+    margin-left: 10%;
     text-align: left;
 }
 .d{
-    margin-left: 30%;
+    margin-left: 15%;
     text-align: left;
 }
 .e{
@@ -35,28 +35,31 @@ p{
     font-size: 18px;
 }
 .g{
-    margin-right: 10%;
+    margin-right: 0%;
     text-align: right;
     font-size: 18px;
 }
 .h{
-    margin-right: 20%;
+    margin-right: 0%;
     text-align: right;
     font-size: 18px;
 }
 .i{
-    text-align: left;
-    margin-left: 5%;
+    text-align: right;
+    margin-right: 0%;
 }
 .j{
-    text-align: left;
-    margin-left: 15%;
+    margin-right: 0%;
+    text-align: right;
+    font-size: 18px;
 }
 .k{
-    text-align: left;
-    margin-left: 30%;
+    margin-right: 0%;
+    text-align: right;
+    font-size: 18px;
 }
 .l{
-    text-align: left;
-    margin-left: 45%;
+    margin-right: 0%;
+    text-align: right;
+    font-size: 18px;
 }

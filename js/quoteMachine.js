@@ -1,6 +1,6 @@
-const quotes = ["“Some interesting quote 1.”","- Some Author 1", "“Some interesting quote 2.”", "- Some Author 2", "“Some interesting quote 3.”", "- Some Author 3", "“Some interesting quote 4.”","- Some Author 4", "“Some interesting quote 5.”","- Some Author 5", "“Some interesting quote 6.”","- Some Author 6",]
-
 $(document).ready(function(){
+	
+	const quotes = ["“The best way to predict the future is to invent it”","― Alan Kay", "“If somebody offers you an amazing opportunity but you are not sure you can do it, say yes – then learn how to do it later”", "― Richard Branson", "“Live as if you were to die tomorrow. Learn as if you were to live forever”", "― Mahatma Gandhi", "“Impossible is something that should be a lot of fun disproving”","― Richard Branson", "“If you are not embarrassed by the first version of your product, you’ve launched too late”","- Reid Hoffman", "“Whenever you find youself on the side of the majority, it is time to pause and reflect”","― Mark Twain", "“The most impressive people I know spent their time with their head down getting shit done for a long, long time”","― Sam Altman", "“Our industry does not respect tradition, it only respects inovation”","― Satya Nadella", "“It is not the strongest of the spicies that survive, nor the most inteligent, but the one most responsive to chage”","― Charles Darwin", "“Money is like gasoline in a roadtrip. You dont whant to run out of gas on the trip, but you're not doing a tour of gas stations”","― Tim O'Reilly"]
 	
 	//DISPLAY QUOTE WITH FADE EFFECT
 	var autoQuoter = function() {

@@ -15,12 +15,13 @@
 
     <!-- CSS -->
     <link href="css\styles.css" rel="stylesheet">
-    <!--<link href="css\startAnimation.css" rel="stylesheet">-->
+    <link href="css\startAnimation.css" rel="stylesheet">
     <link href="css\skillsTile.css" rel="stylesheet">
     <link href="css\aboutMeText.css" rel="stylesheet">
     <link href="css\portfolioBtn.css" rel="stylesheet">
     <link href="css\contactForm.css" rel="stylesheet">
     <link href="css\contactBtn.css" rel="stylesheet">
+    <link href="css\quoteMachine.css" rel="stylesheet">
     
 
     <!-- IMAGES -->
@@ -151,6 +152,8 @@
             <p class="g">Friends, Codding, Music, Reading </p>
             <p class="h">Surf, Crossfit, Biking, SimRacing</p>  
         </div>
+
+<!--  QUOTES TILE  -->
         <div class="col-md-8 quote">
           <h3 class="quotes" id="quote"></h3>
           <h4 class="author" id="author"></h2>
@@ -186,32 +189,32 @@
             
             <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="panel panel-primary">
+                    <div class="panel">
                         <div class="panel-heading">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                            <h4 class="panel-title" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span> I'll be happy to hear from you :)</h4>
+                            <h4 class="panel-title" id="contactLabel"></span> Happy to hear from you :)</h4>
                         </div>
                         <form action="#" method="post" accept-charset="utf-8">
-                        <div class="modal-body" style="padding: 5px;">
+                        <div class="modal-body" style="padding: 40px;">
                               <div class="row">
-                                    <div class="col-lg-6 col-sm-6" style="padding-bottom: 10px;">
+                                    <div class="col-lg-6 col-sm-6" style="padding-bottom: 20px;">
                                         <input class="form-control" name="firstname" placeholder="Firstname" type="text" required autofocus />
                                     </div>
-                                    <div class="col-lg-6 col-sm-6" style="padding-bottom: 10px;">
+                                    <div class="col-lg-6 col-sm-6" style="padding-bottom: 20px;">
                                         <input class="form-control" name="lastname" placeholder="Lastname" type="text" required />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-12 col-sm-12" style="padding-bottom: 10px;">
+                                    <div class="col-lg-12 col-sm-12" style="padding-bottom: 20px;">
                                         <input class="form-control" name="email" placeholder="E-mail" type="text" required />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-12 col-sm-12" style="padding-bottom: 10px;">
+                                    <div class="col-lg-12 col-sm-12" style="padding-bottom: 20px;">
                                         <input class="form-control" name="subject" placeholder="Subject" type="text" required />
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row bottomForm">
                                     <div class="col-lg-12 col-sm-12">
                                         <textarea style="resize:vertical;" class="form-control" placeholder="Message..." rows="6" name="comment" required></textarea>
                                     </div>
