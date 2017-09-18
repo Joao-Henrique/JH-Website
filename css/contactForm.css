@@ -4,5 +4,11 @@
 }
 .panel-footer {
     background-color: #0D1D26;
-    color: white;
+}
+.contactLabel {
+    margin-top: 60px;
+    padding-top: 40px;
+}
+.panel-footer {
+    margin: 0;
 }
