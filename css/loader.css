@@ -25,9 +25,9 @@ span1 {
     white-space: nowrap;
     top: 0;
     left: 0;
-    -webkit-animation: move 5s;
+    -webkit-animation: move 8s;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: 2s;
 }
 
 @keyframes move {

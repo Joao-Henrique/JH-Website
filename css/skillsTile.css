@@ -33,6 +33,7 @@
 .skill-react{background: url("../img/symbols/react.png")}
 .skill-redux{background: url("../img/symbols/redux.png")}
 .skill-d3{background: url("../img/symbols/d3.png")}
+.skill-webpack{background: url("../img/symbols/webpack.png")}
 
 /*  RESIZING TECH IMAGES */
 .skill-html,
@@ -55,7 +56,8 @@
 .skill-mongodb,
 .skill-react,
 .skill-redux,
-.skill-d3{
+.skill-d3,
+.skill-webpack{
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center, center;
