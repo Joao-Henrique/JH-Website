@@ -1,64 +1,7 @@
-/*  TECH TILE CSS */
-.skill{
-    background-color: white;
-    padding-top: 10px;
-}
-.col-md-1{
-    height: 80px;
-    background-color: white;
-}
-.skills{
-    background-color: white;
-}
-
-/*  LOADING TECH IMAGES */
-.skill-html{ background: url("../img/symbols/html.png")}
-.skill-css{background: url("../img/symbols/css.png")}
-.skill-bootstrap{background: url("../img/symbols/bootstrap.png")}
-.skill-js{background: url("../img/symbols/js.png")}
-.skill-sass{background: url("../img/symbols/sass.png")}
-.skill-jquery{background: url("../img/symbols/jquery.png")}
-.skill-ajax{background: url("../img/symbols/ajax.png")}
-.skill-figma{background: url("../img/symbols/figma.png")}
-.skill-heroku{background: url("../img/symbols/heroku.png")}
-.skill-glitch{background: url("../img/symbols/glitch.png")}
-.skill-git{background: url("../img/symbols/git.png")}
-.skill-github{background: url("../img/symbols/github.png")}
-.skill-npm{background: url("../img/symbols/npm.png")}
-.skill-markdown{background: url("../img/symbols/markdown.png")}
-.skill-node{background: url("../img/symbols/node.png")}
-.skill-express{background: url("../img/symbols/express.png")}
-.skill-jade{background: url("../img/symbols/jade.png")}
-.skill-mongodb{background: url("../img/symbols/mongodb.png")}
-.skill-react{background: url("../img/symbols/react.png")}
-.skill-redux{background: url("../img/symbols/redux.png")}
-.skill-d3{background: url("../img/symbols/d3.png")}
-.skill-webpack{background: url("../img/symbols/webpack.png")}
-
-/*  RESIZING TECH IMAGES */
-.skill-html,
-.skill-css,
-.skill-bootstrap,
-.skill-js,
-.skill-sass,
-.skill-jquery,
-.skill-ajax,
-.skill-figma,
-.skill-heroku,
-.skill-glitch,
-.skill-git,
-.skill-github,
-.skill-npm,
-.skill-markdown,
-.skill-node,
-.skill-express,
-.skill-jade,
-.skill-mongodb,
-.skill-react,
-.skill-redux,
-.skill-d3,
-.skill-webpack{
-    background-size: 70%;
+.skills{ 
+    background: url("../img/skills.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center, center;
+    background-color: white;
 }

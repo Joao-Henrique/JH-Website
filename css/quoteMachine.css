@@ -1,6 +1,9 @@
 .quote{
     background: url("../img/quote.png"); 
     color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center, center;
 }
 .quotes{
     text-align: center;

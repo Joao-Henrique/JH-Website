@@ -20,11 +20,7 @@ body{
 .col-md-6,
 .col-md-4,
 .portfolio{
-    height: 180px;
-    border-style: solid;
-    border-color: #0D1D26;
-    border-width: 3px;
-    border-radius: 10px;
+    height: 200px;
 }
 img{
     height: 100%;
@@ -66,16 +62,19 @@ h2{
 
 
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
 }
-/* Medium devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
+    .col-md-8, 
+    .col-md-6,
+    .col-md-4,
+    .portfolio{
+        height: 180px;
+        border-style: solid;
+        border-color: #0D1D26;
+        border-width: 3px;
+        border-radius: 10px;
+    }
 }
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
- }
