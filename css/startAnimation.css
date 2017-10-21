@@ -26,7 +26,7 @@
 }
 
 /*TILE ANIMATION*/
-.skill{
+.skills{
     animation-delay: 10s;
     position: relative;
     animation-name: skill;
