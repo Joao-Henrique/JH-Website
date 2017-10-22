@@ -7,11 +7,22 @@
         animation-duration:8s;
     }
     @keyframes foto {
-        0%   { left:19%;top:360px}
+        0%   { left:230%;top:360px}
         25%  { left:19%;top:360px}
         35%  { left:19%;top:280px}
         96%  { left:19%;top:280px}
         100% { left:0;top:0}
+    }
+    .quote{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: quote;
+        animation-duration: 8s;
+    }
+    @keyframes quote {
+        0%   { left:200%;top:0}
+        25%  { left:0;top:0}
+        100% { left:0px;top:0}
     }
     .presentation{
         animation-delay: 10s;
@@ -20,7 +31,7 @@
         animation-duration: 8s;
     }
     @keyframes presentation {
-        0%   { left:100%;top:175px}
+        0%   { left:200%;top:175px}
         25%  { left:14%;top:175px}
         96%  { left:14%;top:175px}
         100% { left:0px;top:0}
@@ -46,8 +57,20 @@
         animation-duration: 8s;
     }
     @keyframes portfolio {
-        0%   { left:100%;}
-        75%  { left:100%;}
+        0%   { left:200%;}
+        75%  { left:200%;}
+        95%  { left:30%;}
+        100% { left:0;}
+    }
+    .cv{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: cv;
+        animation-duration: 8s;
+    }
+    @keyframes cv {
+        0%   { left:-150%;}
+        75%  { left:-150%;}
         95%  { left:30%;}
         100% { left:0;}
     }
@@ -58,8 +81,8 @@
         animation-duration: 8s;
     }
     @keyframes contact {
-        0%   { left:100%;}
-        75%  { left:100%;}
+        0%   { left:200%;}
+        75%  { left:200%;}
         95%  { left:30%;}
         100% { left:0;}
     }

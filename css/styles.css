@@ -39,15 +39,15 @@ p{
 }
 .foto{
     background: url("../img/fotoPortCartoon.png");
-    background-size: 55%;
-    background-position: right top;
+    background-size: 240px;
+    background-position: center top;
     background-repeat: no-repeat;
     transition:  0.1s;
 }
 .foto:hover{
     background: url("../img/fotoPortCartoonInvert.png");
-    background-size: 55%;
-    background-position: right top;
+    background-size: 240px;
+    background-position: center top;
     background-repeat: no-repeat;
     transition:  0.1s
 }
@@ -77,4 +77,11 @@ h2{
         border-width: 3px;
         border-radius: 10px;
     }
+    .foto{
+        background-position: right top;
+        background-size: 200px;
+    }
+    .foto:hover{
+        background-position: right top;
+        background-size: 200px;
 }

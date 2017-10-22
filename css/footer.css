@@ -18,7 +18,7 @@ ul.social-network li {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  font-size: 25px;
+  font-size: 28px;
   border-color: #0D1D26;
 }
 .social-circle li i {
@@ -63,13 +63,8 @@ height:60px;
 .footer {
 background:#0D1D26;
 }
-.separator {
-visibility: hidden;
-position: absolute;
-}
-.separatorHidden {
-visibility: hidden;
-position: absolute;
+h6 {
+  font-size: 16px;
 }
 
 
@@ -85,16 +80,9 @@ position: absolute;
     bottom:0;
     height:30px;
     background: #0D1D26;
-    padding-top: 15px;
-  }
-  .separator {
-    visibility: visible;
-    position: relative;
-  }
-  .separatorHidden {
-    position: relative;
+    padding-top: 20px;
   }
   h6 {
-    font-size: 15px;
+    font-size: 16px;
   }
 }

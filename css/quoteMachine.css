@@ -28,6 +28,7 @@
     
 @media (min-width: 992px) {
     .quotes{
-        margin-top: 40px;
+        margin-top: 20px;
+        padding-top: 30px;
     }
 }

@@ -1,6 +1,5 @@
 h1{
     color: white;
-    
 }
 p{
     font-size: 20px;
@@ -52,21 +51,12 @@ p{
     .a {
         font-size: 50px;
     }
-    .b{
-        margin-left: 5%;
-        text-align: left;
-    }
-    .c{
-        margin-left: 10%;
-        text-align: left;
-    }
-    .d{
-        margin-left: 15%;
-        text-align: left;
-    }
 }
 
 @media (min-width: 992px) {
+    .a{
+        text-align: left;
+    }
     .b{
         margin-left: 5%;
         text-align: left;
