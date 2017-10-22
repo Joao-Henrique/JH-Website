@@ -8,58 +8,114 @@ p{
     margin: 0;
 }
 .a{
-    font-size: 50px;
-    margin-left: 0%;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
 }
 .b{
-    margin-left: 5%;
-    text-align: left;
+    text-align: center;
 }
 .c{
-    margin-left: 10%;
-    text-align: left;
+    text-align: center;
 }
 .d{
-    margin-left: 15%;
-    text-align: left;
+    text-align: center;
 }
 .e{
     font-size: 30px;
-    margin-right: 0%;
-    text-align: right;
+    text-align: center;
 }
 .f{
-    margin-right: 0%;
-    text-align: right;
-    font-size: 18px;
+    text-align: center;
 }
 .g{
-    margin-right: 0%;
-    text-align: right;
-    font-size: 18px;
+    text-align: center;
 }
 .h{
-    margin-right: 0%;
-    text-align: right;
-    font-size: 18px;
+    text-align: center;
 }
 .i{
-    text-align: right;
-    margin-right: 0%;
+    text-align: center;
 }
 .j{
-    margin-right: 0%;
-    text-align: right;
-    font-size: 18px;
+    text-align: center;
 }
 .k{
-    margin-right: 0%;
-    text-align: right;
-    font-size: 18px;
+    text-align: center;
 }
 .l{
-    margin-right: 0%;
-    text-align: right;
-    font-size: 18px;
+    text-align: center;
+}
+
+
+
+@media (min-width: 400px) {
+    .a {
+        font-size: 50px;
+    }
+    .b{
+        margin-left: 5%;
+        text-align: left;
+    }
+    .c{
+        margin-left: 10%;
+        text-align: left;
+    }
+    .d{
+        margin-left: 15%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .b{
+        margin-left: 5%;
+        text-align: left;
+    }
+    .c{
+        margin-left: 10%;
+        text-align: left;
+    }
+    .d{
+        margin-left: 15%;
+        text-align: left;
+    }
+    .e{
+        font-size: 30px;
+        margin-right: 0%;
+        text-align: right;
+    }
+    .f{
+        margin-right: 0%;
+        text-align: right;
+        font-size: 18px;
+    }
+    .g{
+        margin-right: 0%;
+        text-align: right;
+        font-size: 18px;
+    }
+    .h{
+        margin-right: 0%;
+        text-align: right;
+        font-size: 18px;
+    }
+    .i{
+        text-align: right;
+        margin-right: 0%;
+    }
+    .j{
+        margin-right: 0%;
+        text-align: right;
+        font-size: 18px;
+    }
+    .k{
+        margin-right: 0%;
+        text-align: right;
+        font-size: 18px;
+    }
+    .l{
+        margin-right: 0%;
+        text-align: right;
+        font-size: 18px;
+    }
 }

@@ -1,121 +1,123 @@
+@media (min-width: 992px) {
 /*FOTO AND PRESENTATION 1ST ACT*/
-.foto{
-    animation-delay: 10s;
-    position: relative;
-    animation-name: foto;
-    animation-duration:8s;
-}
-@keyframes foto {
-    0%   { left:19%;top:360px}
-    25%  { left:19%;top:360px}
-    35%  { left:19%;top:280px}
-    96%  { left:19%;top:280px}
-    100% { left:0;top:0}
-}
-.presentation{
-    animation-delay: 10s;
-    position: relative;
-    animation-name: presentation;
-    animation-duration: 8s;
-}
-@keyframes presentation {
-    0%   { left:100%;top:175px}
-    25%  { left:14%;top:175px}
-    96%  { left:14%;top:175px}
-    100% { left:0px;top:0}
-}
+    .foto{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: foto;
+        animation-duration:8s;
+    }
+    @keyframes foto {
+        0%   { left:19%;top:360px}
+        25%  { left:19%;top:360px}
+        35%  { left:19%;top:280px}
+        96%  { left:19%;top:280px}
+        100% { left:0;top:0}
+    }
+    .presentation{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: presentation;
+        animation-duration: 8s;
+    }
+    @keyframes presentation {
+        0%   { left:100%;top:175px}
+        25%  { left:14%;top:175px}
+        96%  { left:14%;top:175px}
+        100% { left:0px;top:0}
+    }
 
-/*TILE ANIMATION*/
-.skills{
-    animation-delay: 10s;
-    position: relative;
-    animation-name: skill;
-    animation-duration: 8s;
-}
-@keyframes skill {
-    0%   { left:-150%;}
-    75%  { left:-150%;}
-    95%  { left:30%;}
-    100% { left:0;}
-}
-.portfolio{
-    animation-delay: 10s;
-    position: relative;
-    animation-name: portfolio;
-    animation-duration: 8s;
-}
-@keyframes portfolio {
-    0%   { left:100%;}
-    75%  { left:100%;}
-    95%  { left:30%;}
-    100% { left:0;}
-}
-.contact{
-    animation-delay: 10s;
-    position: relative;
-    animation-name: contact;
-    animation-duration: 8s;
-}
-@keyframes contact {
-    0%   { left:100%;}
-    75%  { left:100%;}
-    95%  { left:30%;}
-    100% { left:0;}
-}
-.passions{
-    animation-delay: 10s;
-    position: relative;
-    animation-name: passions;
-    animation-duration: 8s;
-}
-@keyframes passions {
-    0%   { left:-700%;}
-    75%  { left:-700%;}
-    95%  { left:30%;}
-    100% { left:0;}
-}
-.drivesme{
-    animation-delay: 10s;
-    position: relative;
-    animation-name: drivesme;
-    animation-duration: 8s;
-}
-@keyframes drivesme {
-    0%   { left:-700%;}
-    75%  { left:-700%;}
-    95%  { left:30%;}
-    100% { left:0;}
-}
+    /*TILE ANIMATION*/
+    .skills{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: skill;
+        animation-duration: 8s;
+    }
+    @keyframes skill {
+        0%   { left:-150%;}
+        75%  { left:-150%;}
+        95%  { left:30%;}
+        100% { left:0;}
+    }
+    .portfolio{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: portfolio;
+        animation-duration: 8s;
+    }
+    @keyframes portfolio {
+        0%   { left:100%;}
+        75%  { left:100%;}
+        95%  { left:30%;}
+        100% { left:0;}
+    }
+    .contact{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: contact;
+        animation-duration: 8s;
+    }
+    @keyframes contact {
+        0%   { left:100%;}
+        75%  { left:100%;}
+        95%  { left:30%;}
+        100% { left:0;}
+    }
+    .passions{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: passions;
+        animation-duration: 8s;
+    }
+    @keyframes passions {
+        0%   { left:-700%;}
+        75%  { left:-700%;}
+        95%  { left:30%;}
+        100% { left:0;}
+    }
+    .drivesme{
+        animation-delay: 10s;
+        position: relative;
+        animation-name: drivesme;
+        animation-duration: 8s;
+    }
+    @keyframes drivesme {
+        0%   { left:-700%;}
+        75%  { left:-700%;}
+        95%  { left:30%;}
+        100% { left:0;}
+    }
 
-/*TITLE FALLING DOWN*/
-h1 {
-    animation: falling 2.5s ease-out;
-    animation-delay: 18s;
-	transform-origin: bottom center;
-}
+    /*TITLE FALLING DOWN*/
+    h1 {
+        animation: falling 2.5s ease-out;
+        animation-delay: 18s;
+        transform-origin: bottom center;
+    }
 
-@keyframes falling {
-	12% {
-		transform: rotateX(240deg);
-	}
-	
-	24% {
-		transform: rotateX(150deg);
-	}
-	
-	36% {
-		transform: rotateX(200deg);
-	}
-	
-	48% {
-		transform: rotateX(175deg);
-	}
-	
-	60%, 85% {
-		transform: rotateX(180deg);
-	}
-	
-	100% {
-		transform: rotateX(0deg);
-	}
+    @keyframes falling {
+        12% {
+            transform: rotateX(240deg);
+        }
+        
+        24% {
+            transform: rotateX(150deg);
+        }
+        
+        36% {
+            transform: rotateX(200deg);
+        }
+        
+        48% {
+            transform: rotateX(175deg);
+        }
+        
+        60%, 85% {
+            transform: rotateX(180deg);
+        }
+        
+        100% {
+            transform: rotateX(0deg);
+        }
+    }
 }
